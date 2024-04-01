@@ -1,6 +1,6 @@
-Ali Abdaal - Spaced Repetition Article https://aliabdaal.com/spaced-repetition/
-Ali Abdaal Spaced Repetition How to Study for Exams Video https://www.youtube.com/watch?app=desktop&v=Z-zNHHpXoMM&t=4s
-Ali Abdaal Study Tips: How to Learn New Content Video https://www.youtube.com/watch?v=fBXnxlLR0PY
-Ali Abdaal Last Minute Study Tips Video https://www.youtube.com/watch?v=q58SMId-_Ko
-Anki flash cards website https://apps.ankiweb.net/
-Class 1 Homework: Learning How to Learn class https://www.classcentral.com/course/learning-how-to-learn-2161
+<li><a href="https://aliabdaal.com/spaced-repetition/"> Ali Abdaal - Spaced Repetition Article</a></li> 
+<li><a href="https://www.youtube.com/watch?app=desktop&v=Z-zNHHpXoMM&t=4s"> Ali Abdaal Spaced Repetition How to Study for Exams Video</a></li> 
+<li><a href="https://www.youtube.com/watch?v=fBXnxlLR0PY"> Ali Abdaal Spaced Repetition: Study Tips: How to Learn New Content Video</a></li>
+<li><a href="https://www.youtube.com/watch?v=q58SMId-_Ko"> Ali Abdaal Last Minute Study Tips Video</a></li> 
+<li><a href="https://apps.ankiweb.net/"> Anki flash cards website</a></li> 
+<li><a href="https://www.classcentral.com/course/learning-how-to-learn-2161">Class 1 Homework: Learning How to Learn class</a></li> 
