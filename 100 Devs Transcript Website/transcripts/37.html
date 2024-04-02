@@ -1,3 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Class 37, 100 Devs Transcripts </title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+<div id="wrapper">
+<div id="main">
+<div class="inner">
+		<header id="header">
+			<a href="../index.html" class="logo"><strong>100 Devs Transcripts</strong> by  Blind Wolf</a>
+			<ul class="icons">
+				<li><a href="https://leonnoel.com/100devs/"><span class="label">Visit 100 Devs Homepage</span></a></li>
+				<li><a href="https://github.com/tre-scinta"><span class="label">Visit Blind Wolf's 'GitHub</span></a></li>
+		</header>
+
+	<!-- Section -->
+		<section>
+			<header class="major">
+				<h2>Class 37: Fullstack Node App, No Express  </h2>
+			</header>
+			<div class="posts">
+				<article>
+				<h3>Introduction</h3>
+
 <p>Yeah. Hey, good morning. Good afternoon. Good evening. Hope you all are doing well. Welcome back. Hey, let's go. I played the music and I got so into it. I almost forgot the first Yeah, I was like, yeah, yeah, what's going on everybody? Hope you all are doing well. Welcome back out where we got a good night tonight. Little different, we always like to mix it up every once in a while. Tonight, we're gonna review the node code from last class, step through it kind of almost line by line, make sure we feel comfortable making changes to it, and then we're jumping into a project night. That means no check-in. We don't want any new riffraff coming in.</p>
 <p>Just want it to be true 100 devs in the house. So, we're gonna get in, we're gonna answer some questions, we're gonna jump into some code, and then Project Night it is, folks. I want you to build a full-stack app using core modules, some real nerd stuff, and then next week we bring in, oh, sweet, sweet Express. Oh, can't wait for next week, but tonight we do a bare bones when you're in an interview. You say, ah, express, express, I've done it with the core modules on the block by myself. Let's go. Are we riffraff gatekeepers though? No, it's just because new folks joining at this point is always a little weird because They show up day one and it's project night and they're like, oh, what is this? So we don't like to do tweets on on project nights Just so that new folks aren't confused like why we weren't live on stream anymore why we're on this thing called Remo and discord Yeah Alrighty folks, let's get into it as you know always like to start off with some questions if you got some questions I got some answers. Let's give folks that are running home from work a chance to get in no new friends. Exactly. No new friends Not on project nights just too confusing for folks that are joining All right, folks. You got questions. I got answers Let's get a few questions in as folks join us. We're gonna go through the code and then bump in to project night What does ketchup crew do about all these project nights Well when you get to the project boom post on the ketchup crew, hey, I'm getting to work through this project You'll have tons of folks that want to join you on that project So if you're going through the ketchup crew, feel free to do the projects at your own pace Posting the ketchup crew folks will join you Is our project gonna be due for homework, of course, of course, we're gonna start it tonight it's due for homework on Tuesday day.</p>
 <p>I went, I went to a job fair and now people are contacting me. I'm still not ready. What do I do? You say, Hey, I'm not currently looking for new opportunities, but I will be in around three months. Oh, you tell a recruiter that they're like, Oh, you don't want to, you don't want to interview right now. Why? Why not? Oh, you're, you're elusive. You're hard to get maybe I want you more now and I will talk to you in three months And so always get a time on the calendar and say hey right now I'm not looking for new opportunities, but we'd love to catch up in three months Can we put something on the calendar today for three months away? Right and the beauty of that is that in three months time when you are more ready You already have that calendar invite ready to rock and roll. You're ready to meet with those folks. And so you're gonna start If you're doing things correctly, right, if you're doing all the things we've been talking about, when it comes to your resume, your LinkedIn, your Twitter's all that stuff, you're going to start having recruiters reach out to you. And part of the process is managing that and not, not putting all your hopes into each outreach, right? Like having a dedicated process, realizing that you're going to be working with 60 companies, right? You got it.</p>
@@ -57,3 +85,106 @@
 <p>Get the fuck out if that's who you want to be get the fuck out. I don't want you here Right, so be kind Be helpful, and that is the first priority getting the project done Right getting that project done is the secondary thing. I want everyone in these groups to understand what's happening in this code I want everyone in the groups to come together to build something fun And if you can't work together if you want to be a flexisaurus get the fuck out I really don't want you a part of this community anymore We're gonna have some folks that they're very very new to coding We're gonna have some folks that might not even been to the last few classes It doesn't matter. The goal is to start working together. Remember when we start applying to these jobs, there's two questions Can you code and do I want to work with you for the next two years? Some of you are really good at the coding part But you got a lot of work when it comes to the I want to work with you for the next two years Because you're going to come across folks of all different skill sets and experiences on the job And so you need to work on that too So, please We are going to jump into remo Uh, you can use remo to work for some folks. Remo doesn't work that well So we'll be on discord as well. I want you to find a group maybe in your study community on discord maybe in one of the voice channels on Discord or on Remo. Definitely try Remo because it's smaller groups, you can see each other. Come together with a project idea and then work on that project for the rest of this evening. I'm gonna ask for your project submissions on Tuesday. Remember, everyone has the fresh start. These projects matter. If you want my help at the end of program, you need to do these projects. I need to be able to talk to a hiring partner and say, yes, this person has worked with several engineers to build real projects.</p>
 <p>Don't be the person that comes to class and then runs away and doesn't do the projects. I can't vouch for you if you're not working with other engineers, right? So please, come, hang out on Remo, hang out on Discord, ask questions, we're gonna be kind, we're going to be helpful first. Finishing the project, figuring out the project is secondary. We gotta get used to working in groups, We've got to get used to working with other engineers and tonight is how it starts Well, alright folks Let's go ahead I'm gonna paste the the the lovely Remo links in chat If you don't have them I'm gonna span them for you right here They were in discord both in the follow-along materials and the learn with Leon live channel So if you need them, they're on discord, but I'm also gonna span them here in chat. Remember if Remo doesn't work too well for you. Try Remo first, please. If Remo doesn't work for you. Feel free to use discord I want to see the cool stuff that you're able to build I want to see the cool stuff that you're able to build remember kind first understand the code second build a project third we're trying to build the best place for folks to learn how to code online kindness always matters most alright folks have a wonderful rest of your night good luck getting into your groups I'm gonna be popping in on Remo, seeing how folks are doing, trying to help a little bit. And I will see you all on Sunday for an amazing Office Hours. And then next week we get to Express. We're building APIs from scratch. We're building CRUD apps from scratch. Can't wait to see you then. All right, good luck getting into your groups.</p>
 <p>Good luck working on your projects. If you come up with something cool, share it on Discord or tweet me. I would love to see the projects that you work. Tweet me, tweet the projects out that you've finished tonight, I wanna see the cool stuff coming in. Projects are going to be due Tuesday. Alright folks, good luck getting on Remo, good luck getting on Discord, and I'll see you on Remo in just a few seconds. Peace.</p>
+<p> End of Transcript</p>
+				</article>
+			</div>
+		</section>
+
+</div>
+</div>
+
+<!-- Sidebar -->
+<div id="sidebar">
+<div class="inner">
+	<!-- Menu -->
+		<nav id="menu">
+			<header class="major">
+				<h2>Sidebar Menu</h2>
+			</header>
+			<ul>
+				<li>
+					<a href="#" class="opener">Transcripts</a>
+					<ul>
+						<li><a href="01.html">Class 1</a></li>
+<li><a href="02.html">Class 2</a></li>
+<li><a href="03.html">Class 3</a></li>
+<li><a href="04.html">Class 4</a></li>
+<li><a href=”05.html”>Class 5</a></li>
+<li><a href="06.html">Class 6</a></li>
+<li><a href="07.html">Class 7</a></li>
+<li><a href="08.html">Class 8</a></li>
+<li><a href="09.html">Class 09</a></li>
+<li><a href="10.html">Class 10</a></li>
+<li><a href="11.html">Class 11</a></li>
+<li><a href="12.html">Class 12</a></li>
+<li><a href="13.html">Class 13</a></li>
+<li><a href="14.html">Class 14</a></li>
+<li><a href="15.html">Class 15</a></li>
+<li><a href="16.html">Class 16</a></li>
+<li><a href="19.html">Class 19</a></li>
+<li><a href="20.html">Class 20</a></li>
+<li><a href="21.html">Class 21</a></li>
+<li><a href="22.html">Class 22</a></li>
+<li><a href="23.html">Class 23</a></li>
+<li><a href="24.html">Class 24</a></li>
+<li><a href="25.html">Class 25</a></li>
+<li><a href="26.html">Class 26</a></li>
+<li><a href="27.html">Class 27</a></li>
+<li><a href="28.html">Class 28</a></li>
+<li><a href="29.html">Class 29</a></li>
+<li><a href="30.html">Class 30</a></li>
+<li><a href="31.html">Class 31</a></li>
+<li><a href="32.html">Class 32</a></li>
+<li><a href="33.html">Class 33</a></li>
+<li><a href="34.html">Class 34</a></li>
+<li><a href="35.html">Class 35</a></li>
+<li><a href="36.html">Class 36</a></li>
+<li><a href="#">Class 37</a></li>
+<li><a href="38.html">Class 38</a></li>
+<li><a href="39.html">Class 39</a></li>
+<li><a href="40.html">Class 40</a></li>
+<li><a href="41.html">Class 41</a></li>
+<li><a href="4445.html">Classes 44 and 45</a></li>
+<li><a href="4647.html">Classes 46 and 47</a></li>
+<li><a href="48.html">Class 48</a></li>
+<li><a href="4952.html">Classes 49 through 52</a></li>
+<li><a href="5355.html">Classes 53 through 55</a></li>
+					</ul>
+					<li> <a href="../pages/resourcelinks.html">Resource Links</a></li>
+				</li>
+			</ul>
+		</nav>
+
+	<!-- Section -->
+		<section>
+			<header class="major">
+				<h2>Get in touch</h2>
+			</header>
+			<p>Feel free to contact me with any questions or feedback</p>
+			<ul class="contact">
+				<li class="icon solid fa-envelope"><a href="#">Email: Tre_Scinta@outlook.com</a></li>
+				<li class="icon solid fa-envelope"><a href="#">Discord: @Blind.Wolf</a></li>
+			</ul>
+		</section>
+
+	<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">&copy; Blind Wolf Web Development. All rights reserved. Produced By: <a href="https://github.com/tre-scinta">Tre Scinta</a>.</p>
+		</footer>
+
+</div>
+</div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
+
+
